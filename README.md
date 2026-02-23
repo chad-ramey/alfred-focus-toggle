@@ -2,11 +2,15 @@
 
 ## Setup
 
-Install the included Apple Shortcuts from the `shortcuts/` folder by double-clicking each one. These create the toggle actions for each Focus mode.
+This workflow uses a single Apple Shortcut named **Toggle Focus**.
 
-Verify they are installed by running in the terminal:
+1. Install the Alfred workflow.
+2. Run `focus install` in Alfred (one-time setup).
+3. Shortcuts.app will open—click **Add Shortcut**.
 
-```
+Verify it’s installed by running:
+
+```sh
 shortcuts list
 ```
 
