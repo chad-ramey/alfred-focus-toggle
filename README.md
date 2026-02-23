@@ -5,14 +5,10 @@
 This workflow uses a single Apple Shortcut named **Toggle Focus**.
 
 1. Install the Alfred workflow.
-2. Run `focus install` in Alfred (one-time setup).
-3. Shortcuts.app will open—click **Add Shortcut**.
+2. Type `focus` in Alfred.
+3. If the Shortcut isn’t installed yet, you’ll get a dialog prompt with an **Install Shortcut** button (one-time setup).
 
-Verify it’s installed by running:
-
-```sh
-shortcuts list
-```
+That’s it.
 
 ## Usage
 
