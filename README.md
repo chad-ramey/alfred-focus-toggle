@@ -18,7 +18,7 @@ Toggle macOS Focus modes via the `focus` keyword.
 
 * <kbd>↩︎</kbd> Toggle the selected Focus mode on or off.
 
-Includes pre-built shortcuts for Sleep, Do Not Disturb, Gaming, Work, and Reduce Interruptions. Add more by creating a new Shortcut with the **Set Focus** action set to **Toggle**, then adding an entry to the List Filter.
+The workflow automatically reads your Focus modes directly from macOS, so it works in any OS language and includes any custom modes you've created — no manual configuration needed.
 
 Configure the keyword in the Workflow's Configuration.
 
