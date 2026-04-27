@@ -18,9 +18,15 @@ Toggle macOS Focus modes via the `focus` keyword.
 
 * <kbd>↩︎</kbd> Toggle the selected Focus mode on or off.
 
-The workflow automatically reads your Focus modes directly from macOS, so it works in any OS language and includes any custom modes you've created — no manual configuration needed.
+Includes pre-built modes for Sleep, Do Not Disturb, Gaming, Work, Reduce Interruptions, and Driving. Add more by editing the List Filter in the workflow and adding an entry with the exact Focus mode name as it appears in System Settings.
 
 Configure the keyword in the Workflow's Configuration.
+
+## Spanish Language Support
+
+A separate **Focus Toggle (Español)** workflow is available for users with their macOS language set to Spanish. It uses the official Apple-localized Focus mode names (`Modo de descanso`, `No molestar`, `Modo de juego`, `Reducir interrupciones`, `Modo de trabajo`, `Modo de conducción`) sourced directly from Apple's system frameworks.
+
+Install `Focus Toggle (Spanish).alfredworkflow` instead of the standard workflow.
 
 ## Known Limitations
 
