@@ -24,9 +24,20 @@ Configure the keyword in the Workflow's Configuration.
 
 ## Spanish Language Support
 
-A separate **Focus Toggle (Español)** workflow is available for users with their macOS language set to Spanish. It uses the official Apple-localized Focus mode names (`Modo de descanso`, `No molestar`, `Modo de juego`, `Reducir interrupciones`, `Modo de trabajo`, `Modo de conducción`) sourced directly from Apple's system frameworks.
+A separate **Focus Toggle (Español)** workflow is available for users with macOS set to Spanish. Install `Focus Toggle (Spanish).alfredworkflow` instead of the standard workflow.
 
-Install `Focus Toggle (Spanish).alfredworkflow` instead of the standard workflow.
+The Alfred list shows Spanish display names (`Modo de descanso`, `No molestar`, etc.), but passes the English internal name to the Shortcut — which is what Apple's `Set Focus` action requires regardless of system language. Custom Focus modes (modes you created yourself) use whatever name you gave them; add those to the List Filter using that exact name.
+
+Built-in mode name mapping:
+
+| Alfred (español) | Shortcut input (English) |
+|---|---|
+| Modo de descanso | Sleep |
+| No molestar | Do Not Disturb |
+| Modo de juego | Gaming |
+| Reducir interrupciones | Reduce Interruptions |
+| Modo de trabajo | Work |
+| Modo de conducción | Driving |
 
 ## Known Limitations
 
